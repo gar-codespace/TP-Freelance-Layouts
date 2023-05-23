@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Time Saver*" scale="3" bitmap="" zoom="3.45851" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="** Personalized Settings&#013;&#010;&#013;&#010;** Turn off AO display of track attributes if needed&#013;&#010;    Let x = $View(Hide,&quot;Track Labels&quot;)&#013;&#010;    Let x = $View(hide,Tracks)&#013;&#010;    Let x = $View(hide,roadbed)&#013;&#010;&#013;&#010;** Override Registry values with personal preferences&#013;&#010;    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed&#013;&#010;    Let &quot;Coupling Speed&quot; = 5&#013;&#010;    Let AllowYardMode = 1&#013;&#010;    *Let InYardMode = 1&#013;&#010;    Let &quot;Car Gap&quot; = 0&#013;&#010;    Let TTableSpeedDivisor = 7 ** Bigger means slower&#013;&#010;    Let ScrollDistFactorx10 = 25&#013;&#010;    Let DistFromSwitch =  0 ** How the switch position is displayed&#013;&#010;    Let HiliteSize = 18 ** How the switch position is displayed&#013;&#010;&#013;&#010;** Set QuickKeys variables&#013;&#010;    Let maximumTrainSpeed = 7&#013;&#010;    Let &quot;Min Coupling Dist&quot; = 1&#013;&#010;    Let &quot;Uncouple Gap&quot; = 20 ** For DropKick, make bigger if dropped cars re-couple&#013;&#010;&#013;&#010;** Toolbars and windows to include when toggling View mode&#013;&#010;    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let TbarAuto = 0&#013;&#010;&#013;&#010;** Optional for o2o; railroad details&#013;&#010;    Let OperatingRoad = &quot;&quot;&#013;&#010;    Let Territory = &quot;&quot;&#013;&#010;    Let Location = &quot;&quot;&#013;&#010;    Let Year = &quot;&quot;&#013;&#010;    Let Divisions = &quot;&quot; ** Enter division names seperated by a comma without a space.&#013;&#010;    Let ModelScale = &quot;&quot; ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G&#013;&#010;">
+<layout name="Time Saver" scale="3" bitmap="" zoom="3.45851" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="** Personalized Settings&#013;&#010;&#013;&#010;** Turn off AO display of track attributes if needed&#013;&#010;    Let x = $View(Hide,&quot;Track Labels&quot;)&#013;&#010;    Let x = $View(hide,Tracks)&#013;&#010;    Let x = $View(hide,roadbed)&#013;&#010;&#013;&#010;** Override Registry values with personal preferences&#013;&#010;    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed&#013;&#010;    Let &quot;Coupling Speed&quot; = 5&#013;&#010;    Let AllowYardMode = 1&#013;&#010;    *Let InYardMode = 1&#013;&#010;    Let &quot;Car Gap&quot; = 0&#013;&#010;    Let TTableSpeedDivisor = 7 ** Bigger means slower&#013;&#010;    Let ScrollDistFactorx10 = 25&#013;&#010;    Let DistFromSwitch =  0 ** How the switch position is displayed&#013;&#010;    Let HiliteSize = 18 ** How the switch position is displayed&#013;&#010;&#013;&#010;** Set QuickKeys variables&#013;&#010;    Let maximumTrainSpeed = 7&#013;&#010;    Let &quot;Min Coupling Dist&quot; = 1&#013;&#010;    Let &quot;Uncouple Gap&quot; = 20 ** For DropKick, make bigger if dropped cars re-couple&#013;&#010;&#013;&#010;** Toolbars and windows to include when toggling View mode&#013;&#010;    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let TbarAuto = 0&#013;&#010;&#013;&#010;** Optional for o2o; railroad details&#013;&#010;    Let OperatingRoad = &quot;&quot;&#013;&#010;    Let Territory = &quot;&quot;&#013;&#010;    Let Location = &quot;&quot;&#013;&#010;    Let Year = &quot;&quot;&#013;&#010;    Let Divisions = &quot;&quot; ** Enter division names seperated by a comma without a space.&#013;&#010;    Let ModelScale = &quot;&quot; ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G&#013;&#010;">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="528,472"></jxn>
@@ -8,7 +8,7 @@
 <jxn t="3" id="4" pt="4511,669"></jxn>
 <jxn t="3" id="5" pt="813,1046"></jxn>
 <jxn t="3" id="6" pt="2783,470"></jxn>
-<jxn t="3" id="7" pt="3580,269" swp="1"></jxn>
+<jxn t="3" id="7" pt="3580,269"></jxn>
 <jxn t="3" id="8" pt="5811,272"></jxn>
 <jxn t="3" id="9" pt="540,266"></jxn>
 <jxn t="3" id="10" pt="5542,674" swp="1"></jxn>
@@ -118,7 +118,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.289142" ctr="x:3604,y:598" vtype="1628" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3944"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="3957"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2

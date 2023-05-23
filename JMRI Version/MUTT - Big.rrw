@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="MUTT - Big*" scale="3" bitmap="..\Layout Artwork\MUTT - Big.jpg" zoom="11.9672" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="steam" descr="Metropolitan Union Transfer Terminal">
+<layout name="MUTT - Big" scale="3" bitmap="..\Layout Artwork\MUTT - Big.jpg" zoom="11.9672" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="steam" descr="Metropolitan Union Transfer Terminal">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="13189,7058"></jxn>
@@ -62,7 +62,7 @@
 <jxn t="3" id="84" pt="1460,4054"></jxn>
 <jxn t="3" id="85" pt="1451,4214"></jxn>
 <jxn t="3" id="86" pt="1451,4691"></jxn>
-<jxn t="3" id="88" pt="1110,2924" swp="1"></jxn>
+<jxn t="3" id="88" pt="1110,2924"></jxn>
 <jxn t="3" id="89" pt="1121,3113"></jxn>
 <jxn t="3" id="90" pt="1158,3355"></jxn>
 <jxn t="3" id="95" pt="1400,4322"></jxn>
@@ -552,7 +552,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1924,b:903" zoom="0.0835616" ctr="x:8940,y:7236" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3946"><![CDATA[** Master script on MUTT - Big
+<script id="1" flags="6" cmdix="3957"><![CDATA[** Master script on MUTT - Big
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2

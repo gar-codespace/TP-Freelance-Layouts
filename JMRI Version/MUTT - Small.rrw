@@ -298,7 +298,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1299,b:585" zoom="0.0835616" ctr="x:8940,y:7236" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3946" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
+<script id="1" flags="6" cmdix="3957" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 3
@@ -406,7 +406,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,434,539</wndrect>
+<wndrect>134,15,254,539</wndrect>
 </note>
 </notes>
 </layout>
