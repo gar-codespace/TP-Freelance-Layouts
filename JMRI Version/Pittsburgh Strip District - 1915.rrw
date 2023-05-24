@@ -1721,7 +1721,7 @@
 <jxn t="3" id="2183" pt="16077,33223"></jxn>
 <jxn t="3" id="2184" pt="16254,33253"></jxn>
 <jxn t="3" id="2185" pt="16467,33296"></jxn>
-<jxn t="3" id="2186" pt="16770,33350" swp="1"></jxn>
+<jxn t="3" id="2186" pt="16770,33350"></jxn>
 <jxn t="3" id="2187" pt="16409,33229"></jxn>
 <jxn t="3" id="2188" pt="16199,33159"></jxn>
 <jxn t="3" id="2189" pt="16022,33078"></jxn>
@@ -8847,7 +8847,7 @@ Let xTrain = $Train($X_Train, Flip)
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1972,b:971" zoom="0.0464706" ctr="x:38631,y:19264" vtype="724"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3946"><![CDATA[** Master script on layout 
+<script id="1" flags="6" cmdix="3948"><![CDATA[** Master script on layout 
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 3
@@ -8881,12 +8881,8 @@ EndDrive
 GoTo StartingPoint]]></script>
 <script id="3" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+** Make adjustments to an AO enabled layout if necessary
+    Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -8910,12 +8906,12 @@ GoTo StartingPoint]]></script>
     Let TbarAuto = 0
 
 ** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+    Let OperatingRoad = "Pennsylvanoa Railroad"
+    Let Territory = "Pittsburgh Strip District"
+    Let Location = "Pittsburgh, Pennsylvania"
+    Let Year = "1915"
+    Let Divisions = "Pittsburgh Division"
+    Let ModelScale = "HO"
 ]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="222" trk="0" dists="0">

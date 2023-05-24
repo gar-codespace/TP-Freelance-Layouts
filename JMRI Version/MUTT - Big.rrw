@@ -552,7 +552,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1924,b:903" zoom="0.0562294" ctr="x:8945,y:7233" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3946"><![CDATA[** Master script on MUTT - Big
+<script id="1" flags="6" cmdix="3948"><![CDATA[** Master script on MUTT - Big
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -586,12 +586,8 @@ EndDrive
 GoTo StartingPoint]]></script>
 <script id="2" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
-    Let x = 1
-    Let x = 1
-    Let x = 1
-    Let x = 1
-    Let x = 0
+** Make adjustments to an AO enabled layout if necessary
+    Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed

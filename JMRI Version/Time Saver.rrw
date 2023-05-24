@@ -72,12 +72,12 @@
 </scenery>
 </tracks>
 <trains selno="0" trk="0" dists="0">
-<trn t="6" id="7" dspeed="0" horntype="0">
+<trn t="6" id="7" dspeed="0" horntype="0" selcarno="1">
 <cars>
-<car t="5" id="12" rect="2585,115,3355,425" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" cartype="diesel" trk="8" dists="472"></car>
-<car t="5" id="1" rect="2087,115,2775,427" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="21" dists="67" gs="1"></car>
-<car t="5" id="6" rect="1497,114,2277,426" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="611" gs="1"></car>
-<car t="5" id="3" rect="965,112,1687,424" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="1172" gs="1"></car>
+<car t="5" id="12" rect="2612,115,3382,425" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" cartype="diesel" trk="8" dists="499"></car>
+<car t="5" id="1" rect="2094,115,2782,427" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="21" dists="60" gs="1"></car>
+<car t="5" id="6" rect="1504,114,2284,426" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="604" gs="1"></car>
+<car t="5" id="3" rect="972,112,1694,424" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="1165" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="4" dspeed="0" horntype="0">
@@ -87,7 +87,7 @@
 </trn>
 <trn t="6" id="1" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="2" rect="537,317,1259,627" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="B1" loadname="Empty" dest="B" collname="1930s-1940s" cartype="box 40 usra" trk="1" dists="370"></car>
+<car t="5" id="2" rect="547,317,1269,627" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="B1" loadname="Empty" dest="B" collname="1930s-1940s" cartype="box 40 usra" trk="1" dists="380"></car>
 </cars>
 </trn>
 <trn t="6" id="2" dspeed="0" horntype="0">
@@ -118,7 +118,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.208154" ctr="x:3603,y:597" vtype="1628" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3946"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="3945"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -133,7 +133,7 @@
 ** Select which subroutines to use
     Call JobTimer Setup
     Call o2o Setup
-    Call RandomRoads Setup
+    Call RandomRoads *Setup
     Call TurnTable *Setup 0
     Call DropKick Setup
     Call SpeedSwitching Setup
@@ -152,10 +152,10 @@ EndDrive
 GoTo StartingPoint]]></script>
 <script id="2" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
+** Make adjustments to an AO enabled layout if necessary
     Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,Tracks)
     Let x = $View(hide,roadbed)
+    Let x = $View(hide,tracks)
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -184,8 +184,7 @@ GoTo StartingPoint]]></script>
     Let Location = ""
     Let Year = ""
     Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
-]]></script>
+    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="0" trk="0" dists="0">
 <trn t="6" id="7" dspeed="0" horntype="0">

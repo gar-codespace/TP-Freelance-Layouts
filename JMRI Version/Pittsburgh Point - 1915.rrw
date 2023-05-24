@@ -222,7 +222,7 @@
 <jxn t="3" id="234" pt="25091,19172"></jxn>
 <jxn t="3" id="235" pt="25298,18826"></jxn>
 <jxn t="3" id="236" pt="25495,18412"></jxn>
-<jxn t="3" id="237" pt="25631,18056" swp="1"></jxn>
+<jxn t="3" id="237" pt="25631,18056"></jxn>
 <jxn t="3" id="238" pt="25510,18537"></jxn>
 <jxn t="3" id="239" pt="25399,18826"></jxn>
 <jxn t="3" id="240" pt="25221,19220"></jxn>
@@ -356,6 +356,12 @@
 <jxn t="3" id="115" pt="22339,11554"></jxn>
 <jxn t="3" id="138" pt="21960,11962"></jxn>
 <jxn t="3" id="321" pt="22533,9149" swp="1"></jxn>
+<jxn t="3" id="347" pt="22416,13547"></jxn>
+<jxn t="3" id="349" pt="23264,13538"></jxn>
+<jxn t="3" id="356" pt="22285,13124"></jxn>
+<jxn t="3" id="358" pt="23339,13133"></jxn>
+<jxn t="3" id="359" pt="23339,13707"></jxn>
+<jxn t="3" id="360" pt="22416,13726"></jxn>
 </jxns>
 <trks>
 <str t="1" id="1" rect="8700,9365,20966,9472" tag="DFH" js="1" jn="2"></str>
@@ -713,17 +719,22 @@
 <str t="1" id="6" rect="22286,9149,22533,9213" js="6" jn="321"></str>
 <str t="1" id="7" rect="22533,9031,22790,9149" js="321" jn="7"></str>
 <str t="1" id="347" rect="22213,9149,22533,9275" js="321" jn="8"></str>
+<str t="1" id="356" rect="22416,13538,23264,13547" tag="~" js="347" jn="349"></str>
+<str t="1" id="357" rect="22285,13124,23339,13133" flags="65536" js="356" jn="358"></str>
+<str t="1" id="358" rect="23338,13133,23340,13707" flags="65536" js="358" jn="359"></str>
+<str t="1" id="359" rect="22416,13707,23339,13726" flags="65536" js="359" jn="360"></str>
+<str t="1" id="360" rect="22285,13124,22416,13726" flags="65536" js="360" jn="356"></str>
 </trks>
 <scenery>
 <scn t="16" id="11" rect="60243,5552,60802,5668" otype="1" text="Way Line" bktype="1" fill="R:242,G:218,B:217" bktype_l="1" fill_l="R:0,G:0,B:128" lwid="1" font="70,400,0,0,Arial,RRU=117" txtcolor="R:0,G:0,B:0"></scn>
 <scn t="16" id="207333" rect="14928,21929,15657,22045" otype="1" text="Water St Spur" bktype="1" fill="R:220,G:220,B:214" bktype_l="1" fill_l="R:0,G:0,B:128" lwid="1" font="-70,400,0,0,Arial,RRU=117" txtcolor="R:0,G:0,B:0"></scn>
 </scenery>
 </tracks>
-<trains selno="12" trk="0" dists="0">
-<trn t="6" id="21" dspeed="0" rev="1" horntype="0">
+<trains selno="0" trk="0" dists="0">
+<trn t="6" id="21" dspeed="0" rev="1" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="1107" rect="23975,20062,24621,20716" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="Penna101107" loadname="Empty" dest="LFB" collname="o2o_Freight" cartype="PRR Xl" prop_str="Link=1" trk="240" dists="344" gs="1"></car>
-<car t="5" id="1440" rect="24359,19612,25027,20320" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="PRR101440" loadname="Empty" dest="LFB" collname="o2o_Freight" cartype="PRR X23" prop_str="Link=1" trk="239" dists="149" gs="1"></car>
+<car t="5" id="1107" rect="24202,19827,24846,20483" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="Penna101107" loadname="Empty" dest="LFB" collname="o2o_Freight" cartype="PRR Xl" prop_str="Link=1" trk="240" dists="19" gs="1"></car>
+<car t="5" id="1440" rect="24583,19346,25211,20082" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="PRR101440" loadname="Empty" dest="LFB" collname="o2o_Freight" cartype="PRR X23" prop_str="Link=1" trk="238" dists="239" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="17" dspeed="0" horntype="0">
@@ -900,7 +911,7 @@
 <car t="5" id="946" rect="14870,12350,15648,12652" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="PRR10946" loadname="Empty" dest="DFY" collname="o2o_Freight" cartype="PRR X25" prop_str="Link=1" trk="101" dists="280" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="12" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="12" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="1708" rect="19099,11425,19831,11783" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR102459" loadname="Empty" dest="DFY" collname="o2o_Freight" cartype="PRR Xl" prop_str="Link=1" trk="85" dists="490"></car>
 <car t="5" id="1594" rect="18552,11486,19278,11804" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR104968" loadname="Merchandise" dest="DFY" collname="o2o_Freight" cartype="PRR Xl" prop_str="Link=1" trk="84" dists="3956"></car>
@@ -942,6 +953,11 @@
 <car t="5" id="1579" rect="9071,10082,9793,10384" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR105031" loadname="LCL" dest="DFS" collname="o2o_Freight" cartype="PRR Xl" prop_str="Link=1" trk="24" dists="10807" gs="1"></car>
 </cars>
 </trn>
+<trn t="6" id="4" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="1" rect="22517,13390,23295,13694" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="" loadname="Empty" dest="~" collname="o2o_Freight" cartype="PRR X25" prop_str="Link=1" trk="356" dists="490"></car>
+</cars>
+</trn>
 </trains>
 <clock smult="6"></clock>
 <advops>
@@ -967,9 +983,9 @@ Tools "Check Track"
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1845,b:893" zoom="0.022276" ctr="x:33669,y:14880" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1845,b:893" zoom="0.022276" ctr="x:33669,y:14880" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3946" wndrect="0,22,597,406"><![CDATA[** Master script on layout Pittsburgh Strip District - 1915
+<script id="1" flags="6" cmdix="3951" wndrect="0,22,597,406"><![CDATA[** Master script on layout Pittsburgh Strip District - 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -1001,12 +1017,10 @@ Call QuickKeys
 EndDrive
 
 GoTo StartingPoint]]></script>
-<script id="2" flags="8"><![CDATA[** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+<script id="2" flags="8"><![CDATA[** Personalized Settings
+
+** Make adjustments to an AO enabled layout if necessary
+    Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -1030,12 +1044,12 @@ GoTo StartingPoint]]></script>
     Let TbarAuto = 0
 
 ** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+    Let OperatingRoad = "Pennsylvanoa Railroad"
+    Let Territory = "Pittsburgh Strip District"
+    Let Location = "Pittsburgh, Pennsylvania"
+    Let Year = "1915"
+    Let Divisions = "Pittsburgh Division"
+    Let ModelScale = "HO"]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="12" trk="0" dists="0">
 <trn t="6" id="21" dspeed="0" rev="1" horntype="0">
@@ -1268,8 +1282,8 @@ GoTo StartingPoint]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="14,188,660,308" otype="9" text=" " bktype="1" fill="R:242,G:234,B:216" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>188,14,316,660</wndrect>
+<scn t="16" id="1" rect="12,134,658,719" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="o2o_scenery\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>188,14,308,660</wndrect>
 </note>
 </notes>
 </layout>
