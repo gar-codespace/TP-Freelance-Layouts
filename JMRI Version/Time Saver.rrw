@@ -20,7 +20,7 @@
 <jxn t="3" id="19" pt="3342,270"></jxn>
 <jxn t="3" id="20" pt="4968,734"></jxn>
 <jxn t="3" id="21" pt="2249,268"></jxn>
-<jxn t="3" id="35" pt="2401,672" swp="1"></jxn>
+<jxn t="3" id="35" pt="2401,672"></jxn>
 <jxn t="3" id="22" pt="3693,470"></jxn>
 <jxn t="3" id="23" pt="4148,526"></jxn>
 <jxn t="3" id="24" pt="3932,490"></jxn>
@@ -144,7 +144,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.241668" ctr="x:3103,y:597" vtype="1628" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3945"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="3964"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
