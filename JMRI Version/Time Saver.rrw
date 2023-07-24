@@ -7,7 +7,7 @@
 <jxn t="3" id="3" pt="2694,671"></jxn>
 <jxn t="3" id="5" pt="482,996"></jxn>
 <jxn t="3" id="6" pt="2269,470" swp="1"></jxn>
-<jxn t="3" id="7" pt="3066,269" swp="1"></jxn>
+<jxn t="3" id="7" pt="3066,269"></jxn>
 <jxn t="3" id="8" pt="4723,270"></jxn>
 <jxn t="3" id="9" pt="631,270"></jxn>
 <jxn t="3" id="10" pt="4735,671"></jxn>
@@ -144,9 +144,10 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.240219" ctr="x:3106,y:596" vtype="1628" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="4043"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="4104"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 0
     Let NoteForPersonalizedSettings = 2
     Let NoteForPressX = 0
     Let NoteForPressY = 0
