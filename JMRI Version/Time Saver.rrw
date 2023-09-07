@@ -7,7 +7,7 @@
 <jxn t="3" id="3" pt="2694,671"></jxn>
 <jxn t="3" id="5" pt="482,996"></jxn>
 <jxn t="3" id="6" pt="2269,470" swp="1"></jxn>
-<jxn t="3" id="7" pt="3066,269"></jxn>
+<jxn t="3" id="7" pt="3066,269" swp="1"></jxn>
 <jxn t="3" id="8" pt="4723,270"></jxn>
 <jxn t="3" id="9" pt="631,270"></jxn>
 <jxn t="3" id="10" pt="4735,671"></jxn>
@@ -76,14 +76,14 @@
 </group>
 </scenery>
 </tracks>
-<trains selno="1" trk="0" dists="0">
+<trains selno="3" trk="0" dists="0">
 <trn t="6" id="2" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="3" rect="5209,666,5947,1104" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM3" loaded="1" loadname="Load" dest="F" collname="1930s-1940s" cartype="box 40 usra" trk="20" dists="629"></car>
 <car t="5" id="4" rect="4693,534,5431,976" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM4" loaded="1" loadname="Load" dest="F" collname="1930s-1940s" cartype="box 40 usra" trk="20" dists="97"></car>
 </cars>
 </trn>
-<trn t="6" id="5" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="5" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="7" rect="1379,112,2101,424" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM2" loaded="1" loadname="Load" dest="A" collname="1930s-1940s" cartype="box 40 usra" trk="21" dists="509" gs="1"></car>
 </cars>
@@ -93,14 +93,10 @@
 <car t="5" id="2" rect="407,702,1145,1142" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM1" loaded="1" loadname="Load" dest="C" collname="1930s-1940s" cartype="box 40 usra" trk="18" dists="632" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="1" dspeed="0" horntype="0">
+<trn t="6" id="3" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="6" rect="349,315,1071,625" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM6" loaded="1" loadname="Load" dest="B" collname="1930s-1940s" cartype="box 40 usra" trk="1" dists="338"></car>
-</cars>
-</trn>
-<trn t="6" id="3" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="1" rect="3009,314,3697,626" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="22" dists="340" gs="1"></car>
+<car t="5" id="1" rect="818,315,1506,625" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="1" dists="790"></car>
+<car t="5" id="6" rect="286,315,1008,625" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM6" loaded="1" loadname="Load" dest="B" collname="1930s-1940s" cartype="box 40 usra" trk="1" dists="275"></car>
 </cars>
 </trn>
 <trn t="6" id="6" dspeed="0" horntype="0">
@@ -142,9 +138,9 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="1" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.240219" ctr="x:3106,y:596" vtype="1628" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.240219" ctr="x:3106,y:601" vtype="1628" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="4104"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="4149"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForRandomRoads = 0
